@@ -6,7 +6,7 @@ This project implements a single-cycle RISC-V CPU based on *Digital Design and C
 ## Features
 - Implements RV32I base instruction set (38 instructions).
 - Single-cycle execution for all instructions.
-- 
+  
 ## Documentation
 
 ### `riscv_cpu_unit` Module
