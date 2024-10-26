@@ -1,8 +1,12 @@
 # Single Cycle RISC-V Core
 
 ## Description
-This project implements a single-cycle RISC-V CPU based on *Digital Design and Computer Architecture* by Sarah Harris. It supports the RV32I base instruction set and executes each instruction in one clock cycle. The project utilizes Intel Quartus for synthesis and ModelSim-Altera for simulation, targeting the Cyclone IV E FPGA device, specifically the EP4CE22F17C6. The testbench for the core is ad hoc and does not rigorously test all the implemented instructions.
+This project implements a single-cycle RISC-V CPU based on *Digital Design and Computer Architecture* by Sarah Harris. The project utilizes Intel Quartus for synthesis and ModelSim-Altera for simulation, targeting the Cyclone IV E FPGA device, specifically the EP4CE22F17C6. The testbench for the core is ad hoc and does not rigorously test all the implemented instructions.
 
+## Features
+- Implements RV32I base instruction set (38 instructions).
+- Single-cycle execution for all instructions.
+- 
 ## Documentation
 
 ### `riscv_cpu_unit` Module
